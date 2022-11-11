@@ -147,14 +147,6 @@
             android:text="guardar"
             android:textSize="23dp" />
 
-        <Button
-            android:id="@+id/btconsultar"
-            android:layout_width="188dp"
-            android:layout_height="60dp"
-            android:layout_gravity="center"
-            android:layout_weight="1"
-            android:text="consultar"
-            android:textSize="23dp" />
     </LinearLayout>
 
     <LinearLayout

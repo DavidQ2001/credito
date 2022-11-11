@@ -17,8 +17,8 @@
         android:gravity="center"
         android:text="Estudio Credito" />
 
-    <TextView
-        android:id="@+id/tvcodigoCredito"
+    <EditText
+        android:id="@+id/etcodigoPrestamo"
         android:layout_width="350dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
@@ -37,8 +37,8 @@
         android:layout_marginRight="20dp"
         android:orientation="horizontal">
 
-        <TextView
-            android:id="@+id/tvIdentificacion"
+        <EditText
+            android:id="@+id/etIdentificacion"
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:layout_weight="1"
@@ -50,6 +50,7 @@
             android:id="@+id/btBuscar"
             android:layout_width="wrap_content"
             android:layout_height="60dp"
+            android:onClick="botonBuscar"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="buscar" />
@@ -150,6 +151,7 @@
             android:layout_gravity=""
             android:layout_weight="1"
             android:gravity="center"
+            android:onClick="botonEjecutar"
             android:textSize="23dp"
             android:text="Ejecutar" />
 
@@ -203,6 +205,7 @@
             android:layout_width="wrap_content"
             android:layout_height="70dp"
             android:layout_weight="1"
+            android:onClick="Regresar"
             android:textSize="23dp"
             android:text="regresar" />
     </LinearLayout>
@@ -214,6 +217,7 @@
         android:layout_marginTop="15dp"
         android:layout_marginLeft="20dp"
         android:layout_marginRight="20dp"
+        android:onClick="Cancelar"
         android:layout_gravity="center"
         android:text="cancelar"
         android:textSize="23dp" />
